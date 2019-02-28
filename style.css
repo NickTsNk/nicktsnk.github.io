@@ -1,0 +1,38 @@
+#wrap{
+	width: 90%;
+	border: solid red 2px;
+	margin: 0px auto; 
+	background: linear-gradient(30deg, yellow, green, blue);
+}
+#block1{
+	display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.logo{
+	display: inline-block;
+}
+.logo img{
+	width: 100px;
+}
+.logo, #block1, #block2, #block3, #block4, #block5{
+	border: solid red 2px;
+} 
+#block4 img{
+	width: 500px;
+}
+#block4{
+	width: 500px;
+	margin: 0px auto;
+
+}
+#block2, #block3, #block5{
+	text-align: center;
+}
+#block5 p:first-child{
+	text-align: right;
+}
+#block2, #block5{
+	background: pink;
+}
